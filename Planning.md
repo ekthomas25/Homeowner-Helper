@@ -28,5 +28,11 @@ Watch video about NoSQL Databases
 1:10pm - 2:10pm
 Research potentially helpful libraries
 
-2:10pm -
+2:10pm - 3:05pm
 Research and experiment with time/calendar display methods
+
+3:05pm - 3:20pm
+Break!!
+
+3:20pm - 
+Work on proposal
