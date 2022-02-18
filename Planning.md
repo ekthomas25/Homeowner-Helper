@@ -25,5 +25,8 @@ Read about Firebase
 Read about NoSQL Databases
 Watch video about NoSQL Databases
 
-1:10pm -
+1:10pm - 2:10pm
 Research potentially helpful libraries
+
+2:10pm -
+Research and experiment with time/calendar display methods
