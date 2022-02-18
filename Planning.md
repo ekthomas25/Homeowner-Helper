@@ -24,3 +24,6 @@ Read about Firebase
 11:30am - 12:00
 Read about NoSQL Databases
 Watch video about NoSQL Databases
+
+1:10pm -
+Research potentially helpful libraries
