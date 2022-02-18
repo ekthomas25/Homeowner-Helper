@@ -21,5 +21,6 @@ Component planning w/ Figma
 10:10am - 11:30am
 Read about Firebase
 
-11:30am - 
+11:30am - 12:00
 Read about NoSQL Databases
+Watch video about NoSQL Databases
