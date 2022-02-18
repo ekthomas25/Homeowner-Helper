@@ -12,3 +12,8 @@ Planning w/ Figma
 ---------------
 7:10pm - 8:30pm
 Component planning w/ Figma
+
+220218
+---------------
+8:07am - 
+Component planning w/ Figma
