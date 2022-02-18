@@ -18,5 +18,8 @@ Component planning w/ Figma
 8:07am - 10:10am
 Component planning w/ Figma
 
-10:10am - 
+10:10am - 11:30am
 Read about Firebase
+
+11:30am - 
+Read about NoSQL Databases
