@@ -34,5 +34,5 @@ Research and experiment with time/calendar display methods
 3:05pm - 3:20pm
 Break!!
 
-3:20pm - 
+3:20pm - 4:50pm
 Work on proposal
