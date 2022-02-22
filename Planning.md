@@ -42,5 +42,5 @@ Work on proposal
 6:45pm - 7:30pm
 Start reading Firebase docs - forgot to commit when starting!
 
-7:30pm - 
+7:30pm - 7:50pm
 Going through LHTP lessons on Firebase
