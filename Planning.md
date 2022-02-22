@@ -36,3 +36,8 @@ Break!!
 
 3:20pm - 4:50pm
 Work on proposal
+
+220221 - Monday
+---------------
+6:45pm -
+Start reading Firebase docs - forgot to commit when starting!
