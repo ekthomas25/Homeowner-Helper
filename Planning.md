@@ -39,5 +39,8 @@ Work on proposal
 
 220221 - Monday
 ---------------
-6:45pm -
+6:45pm - 7:30pm
 Start reading Firebase docs - forgot to commit when starting!
+
+7:30pm - 
+Going through LHTP lessons on Firebase
