@@ -44,3 +44,6 @@ Start reading Firebase docs - forgot to commit when starting!
 
 7:30pm - 7:50pm
 Going through LHTP lessons on Firebase
+
+9pm - 
+Start going through LHTP again
