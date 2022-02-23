@@ -53,5 +53,8 @@ Start going through LHTP again
 6:20pm -7:55pm
 Reading LHTP lessons on Firebase
 
-7:55pm -
+7:55pm - 8:30m
 Read about firebase and authentication
+
+8:30pm - 
+Reading LHTP about hosting w/ Firebase
