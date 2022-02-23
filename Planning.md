@@ -59,5 +59,8 @@ Read about firebase and authentication
 8:30pm - 8:47pm
 Reading LHTP about hosting w/ Firebase
 
-10:15pm - 
+10:15pm - 10:25pm
 Reading LHTP about Firestore Queries
+
+10:25-
+Read through Firebase documentation on Firestore 
