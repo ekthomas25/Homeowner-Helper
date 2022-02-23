@@ -50,5 +50,8 @@ Start going through LHTP again
 
 220222 - Tuesday
 ---------------
-6:20pm -
+6:20pm -7:55pm
 Reading LHTP lessons on Firebase
+
+7:55pm -
+Read about firebase and authentication
