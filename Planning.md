@@ -47,3 +47,8 @@ Going through LHTP lessons on Firebase
 
 9pm - 10:22pm
 Start going through LHTP again
+
+220222 - Tuesday
+---------------
+6:20pm -
+Reading LHTP lessons on Firebase
