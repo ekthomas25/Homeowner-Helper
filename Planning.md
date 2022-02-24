@@ -68,5 +68,5 @@ https://firebase.google.com/docs/firestore/query-data/queries
 
 220223 - Wednesday
 ---------------
-4:55pm -
+4:55pm -7:20pm
 Trying to finalize component diagram
