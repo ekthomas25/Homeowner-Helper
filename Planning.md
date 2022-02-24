@@ -62,5 +62,11 @@ Reading LHTP about hosting w/ Firebase
 10:15pm - 10:25pm
 Reading LHTP about Firestore Queries
 
-10:25-
-Read through Firebase documentation on Firestore 
+10:25-10:35pm
+Read through Firebase documentation on Firestore queries
+https://firebase.google.com/docs/firestore/query-data/queries
+
+220223 - Wednesday
+---------------
+4:55pm -
+Trying to finalize component diagram
