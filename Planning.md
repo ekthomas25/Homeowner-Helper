@@ -76,6 +76,9 @@ Trying to finalize component diagram
 10:34
 Add README w/ a short description
 
-10:35 -
+10:35am - 11:30am
 Planning how each feature will relate to others using Figma
 Creating charts on what will be shown in each view to finalize plan
+
+11:30am - 
+Researching about structuring documents in Firebase
