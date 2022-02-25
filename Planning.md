@@ -70,3 +70,12 @@ https://firebase.google.com/docs/firestore/query-data/queries
 ---------------
 4:55pm -7:20pm
 Trying to finalize component diagram
+
+220225 - Friday
+---------------
+10:34
+Add README w/ a short description
+
+10:35 -
+Planning how each feature will relate to others using Figma
+Creating charts on what will be shown in each view to finalize plan
