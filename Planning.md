@@ -90,3 +90,6 @@ https://www.youtube.com/watch?v=haMOUb3KVSo
 Video:
 How do queries work in Cloud Firestore? | Get to know Cloud Firestore #2
 https://www.youtube.com/watch?v=Ofux_4c94FI
+
+1:05pm -
+Begin watching React+Firebase tutuorial
