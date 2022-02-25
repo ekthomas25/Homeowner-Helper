@@ -80,5 +80,13 @@ Add README w/ a short description
 Planning how each feature will relate to others using Figma
 Creating charts on what will be shown in each view to finalize plan
 
-11:30am - 
+11:30am - 12:32pm
 Researching about structuring documents in Firebase
+
+Video: - watched at slowed down speed. This dude talks too fast!
+How to Structure Your Data | Get to know Cloud Firestore #5
+https://www.youtube.com/watch?v=haMOUb3KVSo
+
+Video:
+How do queries work in Cloud Firestore? | Get to know Cloud Firestore #2
+https://www.youtube.com/watch?v=Ofux_4c94FI
