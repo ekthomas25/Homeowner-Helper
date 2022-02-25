@@ -97,5 +97,8 @@ CRUD Tutorial Using React + Firebase | Firebase 9 and Firestore Tutorial
 https://youtu.be/jCY6DH8F4oc
 This video was incredibly helpful in seeing how to access information! It clicks now!
 
-2:00pm - 
+2:00pm - 3:30pm
 Researching hooks
+
+Watch part of this video:
+https://www.youtube.com/watch?v=LlvBzyy-558
