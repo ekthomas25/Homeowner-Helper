@@ -92,7 +92,7 @@ How do queries work in Cloud Firestore? | Get to know Cloud Firestore #2
 https://www.youtube.com/watch?v=Ofux_4c94FI
 
 1:05pm - 2:00pm
-Begin watching React+Firebase tutuorial
+Begin watching React+Firebase tutorial
 CRUD Tutorial Using React + Firebase | Firebase 9 and Firestore Tutorial
 https://youtu.be/jCY6DH8F4oc
 This video was incredibly helpful in seeing how to access information! It clicks now!
@@ -103,5 +103,8 @@ Researching hooks
 Watch part of this video:
 https://www.youtube.com/watch?v=LlvBzyy-558
 
-4:00pm -
+4:00pm - 4:25pm
 Finally Finalizing Component diagram!
+
+4:25pm - 
+Going over npx create-react-app again before starting to code
