@@ -118,5 +118,8 @@ Add npx create-react-app homeowner-helper-proj
 5:05pm - 5:25pm
 project set up... removing unnecessary files and adding folders before commiting
 
-5:25pm - 
-Read Create REact App documentation about the public folder
+5:25pm - 5:40pm
+Read Create React App documentation about the public folder
+
+5:40pm - 
+Rabit hole down learning about the boiler plate files/code within the public folder
