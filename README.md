@@ -7,3 +7,5 @@
 This application is currently in the planning stages.
 
 Please view capstone-proposal.md for futher information regarding this project.
+
+To see the author's research and planning process, check out Planning.md
