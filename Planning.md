@@ -115,5 +115,8 @@ Submit project and fill out survey
 5:00pm
 Add npx create-react-app homeowner-helper-proj
 
-5:05pm -
+5:05pm - 5:25pm
 project set up... removing unnecessary files and adding folders before commiting
+
+5:25pm - 
+Read Create REact App documentation about the public folder
