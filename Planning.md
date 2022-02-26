@@ -106,5 +106,8 @@ https://www.youtube.com/watch?v=LlvBzyy-558
 4:00pm - 4:25pm
 Finally Finalizing Component diagram!
 
-4:25pm - 
+4:25pm - 4:45pm
 Going over npx create-react-app again before starting to code
+
+4:45pm - 5pm
+Submit project and fill out survey
