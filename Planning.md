@@ -102,3 +102,6 @@ Researching hooks
 
 Watch part of this video:
 https://www.youtube.com/watch?v=LlvBzyy-558
+
+4:00pm -
+Finally Finalizing Component diagram!
