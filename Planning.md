@@ -111,3 +111,6 @@ Going over npx create-react-app again before starting to code
 
 4:45pm - 5pm
 Submit project and fill out survey
+
+5:00pm
+Add npx create-react-app homeowner-helper-proj
