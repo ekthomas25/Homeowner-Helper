@@ -124,3 +124,8 @@ Read Create React App documentation about the public folder
 5:40pm - 5:50pm
 Rabit hole down learning about the boiler plate files/code within the public folder
 https://developer.mozilla.org/en-US/docs/Web/Manifest
+
+220227 - Sunday
+---------------
+2:00pm -
+Go over LHTP lessons
