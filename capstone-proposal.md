@@ -14,6 +14,7 @@ The project's purpose is to keep track of all of the regular home maintenance th
 - User is able to complete and log a task
 - User can view a forecast of when that task should be completed next
 - User can view past logs of tasks to reference
+- User can log in using authentication
 
 
 ## What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
