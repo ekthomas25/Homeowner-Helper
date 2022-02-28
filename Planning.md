@@ -127,5 +127,5 @@ https://developer.mozilla.org/en-US/docs/Web/Manifest
 
 220227 - Sunday
 ---------------
-2:00pm -
+2:00pm - 4:00pm
 Go over LHTP lessons
