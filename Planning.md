@@ -129,3 +129,8 @@ https://developer.mozilla.org/en-US/docs/Web/Manifest
 ---------------
 2:00pm - 4:00pm
 Go over LHTP lessons
+
+220228 - Monday
+---------------
+7:05pm - 
+Deconstructing components to plan necessary methods and state will be needed.
