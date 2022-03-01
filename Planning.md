@@ -138,3 +138,4 @@ Deconstructing components to plan necessary methods and state will be needed.
 7:50pm - 
 Watching videos about components - trying to find info about shared components
 https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3
+https://www.youtube.com/watch?v=0sSYmRImgRY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=5
