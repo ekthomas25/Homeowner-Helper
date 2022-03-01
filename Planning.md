@@ -135,9 +135,10 @@ Go over LHTP lessons
 7:05pm - 7:50pm
 Deconstructing components to plan necessary methods and state will be needed.
 
-7:50pm - 
+7:50pm - 8:20pm
 Watching videos about components - trying to find info about shared components
 https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3
 https://www.youtube.com/watch?v=0sSYmRImgRY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=5
 https://www.youtube.com/watch?v=yc6elaGOoGQ
 https://www.youtube.com/watch?v=4pO-HcG2igk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=8
+Look back over help queue project
