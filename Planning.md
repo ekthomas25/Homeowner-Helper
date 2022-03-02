@@ -142,3 +142,9 @@ https://www.youtube.com/watch?v=0sSYmRImgRY&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRi
 https://www.youtube.com/watch?v=yc6elaGOoGQ
 https://www.youtube.com/watch?v=4pO-HcG2igk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=8
 Look back over help queue project
+
+220301 - Tuesday
+---------------
+9:45pm -
+Watch Net Ninja Tutorial about Hooks
+https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI
