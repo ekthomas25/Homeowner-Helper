@@ -162,7 +162,7 @@ https://www.youtube.com/watch?v=rDVe6pmeAjo&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 
 220304 - Friday
 ---------------
-11:20am -
+11:20am - 3:30pm
 Watch Net Ninja Tutorial about Hooks
 practice using hooks
 https://www.youtube.com/watch?v=54i4-03cMnE&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=14
@@ -170,3 +170,7 @@ https://www.youtube.com/watch?v=GS6aVjHxcgM&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 https://www.youtube.com/watch?v=v1s_rbZbqQI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=16
 Had to troubleshoot - npm start was not working. Had to delete project and restart D:
 https://www.youtube.com/watch?v=1I-vfkOVAXU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=18
+
+3:50pm -
+Create scratch notes page
+Start playing around w/ file structure and seeing where we need hooks vs constructor
