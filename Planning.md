@@ -156,5 +156,6 @@ https://www.youtube.com/watch?v=hLFl4Io0mww&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 
 220303 - Thursday
 ---------------
+6:25pm - 7:00pm
 Watch Net Ninja Tutorial about Hooks
 https://www.youtube.com/watch?v=rDVe6pmeAjo&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=12
