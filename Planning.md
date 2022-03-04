@@ -153,3 +153,8 @@ https://www.youtube.com/watch?v=WkBXRQfpifc&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 https://www.youtube.com/watch?v=1bsvh_0HRwA&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=5
 https://www.youtube.com/watch?v=Yps_QrUvluQ&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=7
 https://www.youtube.com/watch?v=hLFl4Io0mww&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=8
+
+220303 - Thursday
+---------------
+Watch Net Ninja Tutorial about Hooks
+https://www.youtube.com/watch?v=rDVe6pmeAjo&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=12
