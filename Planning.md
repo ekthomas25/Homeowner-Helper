@@ -165,3 +165,6 @@ https://www.youtube.com/watch?v=rDVe6pmeAjo&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 11:20am -
 Watch Net Ninja Tutorial about Hooks
 practice using hooks
+https://www.youtube.com/watch?v=54i4-03cMnE&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=14
+https://www.youtube.com/watch?v=GS6aVjHxcgM&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=15
+https://www.youtube.com/watch?v=v1s_rbZbqQI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=16
