@@ -191,5 +191,5 @@ Watch Udemy react tutorial
 Still watching tutorial...
 Still watching tutorial... learning about useEffect
 
-2:30pm - 
+2:30pm - 3:20pm
 follow along w/ tutorial to build out a project management site to see how scheduling/date is used with firebase
