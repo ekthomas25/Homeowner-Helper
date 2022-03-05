@@ -174,3 +174,5 @@ https://www.youtube.com/watch?v=1I-vfkOVAXU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 3:50pm -
 Create scratch notes page
 Start playing around w/ file structure and seeing where we need hooks vs constructor
+Review react-router-dom, go over navbar tutorial
+https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/
