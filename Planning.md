@@ -186,7 +186,10 @@ Still watching tutorial....
 
 220305 - Saturday
 
-11:40am -
+11:40am - 2:30pm
 Watch Udemy react tutorial
 Still watching tutorial...
 Still watching tutorial... learning about useEffect
+
+2:30pm - 
+follow along w/ tutorial to build out a project management site to see how scheduling/date is used with firebase
