@@ -171,8 +171,11 @@ https://www.youtube.com/watch?v=v1s_rbZbqQI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APU
 Had to troubleshoot - npm start was not working. Had to delete project and restart D:
 https://www.youtube.com/watch?v=1I-vfkOVAXU&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&index=18
 
-3:50pm -
+3:50pm - 5:18pm
 Create scratch notes page
 Start playing around w/ file structure and seeing where we need hooks vs constructor
 Review react-router-dom, go over navbar tutorial
 https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/
+
+5:18pm - 
+Test out using context with the Tasks... not sure how this works with firebase or if this is how I want to structure things. 
