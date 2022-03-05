@@ -180,6 +180,6 @@ https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/
 5:18pm - 7pm
 Test out using context with the Tasks... not sure how this works with firebase or if this is how I want to structure things. 
 
-7pm -
+7pm -8:50pm
 Watch Udemy react tutorial
 Still watching tutorial....
