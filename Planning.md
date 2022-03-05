@@ -177,5 +177,8 @@ Start playing around w/ file structure and seeing where we need hooks vs constru
 Review react-router-dom, go over navbar tutorial
 https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/
 
-5:18pm - 
+5:18pm - 7pm
 Test out using context with the Tasks... not sure how this works with firebase or if this is how I want to structure things. 
+
+7pm -
+Watch Udemy react tutorial
