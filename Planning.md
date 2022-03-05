@@ -182,3 +182,4 @@ Test out using context with the Tasks... not sure how this works with firebase o
 
 7pm -
 Watch Udemy react tutorial
+Still watching tutorial....
