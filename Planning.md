@@ -194,7 +194,7 @@ Still watching tutorial... learning about useEffect
 2:30pm - 3:20pm
 follow along w/ tutorial to build out a project management site to see how scheduling/date is used with firebase
 
-4:40pm -
+4:40pm - 7:45pm
 continue along with tutorial
 still watching... now about firestore collections
 still watching...
