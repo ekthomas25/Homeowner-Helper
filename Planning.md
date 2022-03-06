@@ -196,3 +196,4 @@ follow along w/ tutorial to build out a project management site to see how sched
 
 4:40pm -
 continue along with tutorial
+still watching... now about firestore collections
