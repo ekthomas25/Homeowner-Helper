@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef } from 'react';
+import { useFirestore } from '../../hooks/useFirestore'
 
-export default function TaskForm() {
+export default function TaskForm({ uid }) {
   const [taskName, setTaskName] = useState('');
   const [area, setArea] = useState('');
   const [frequency, setFrequency] = useState('');
@@ -9,12 +10,32 @@ export default function TaskForm() {
   const [newMaterial, setNewMaterial] = useState('');
   const [materialList, setMaterialList] = useState([]);
   const materialInput = useRef(null)
+  const { addDocument, response } = useFirestore('tasks')
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(taskName, area, frequency, about, nextDue, materialList)
+    addDocument({
+      uid,
+      taskName,
+      area,
+      frequency,
+      about,
+      nextDue,
+      materialList
+    })
 
   }
+
+  useEffect(() => {
+    if(response.success) {
+      setTaskName('');
+      setArea('');
+      setFrequency('');
+      setAbout('');
+      setNextDue('');
+      setMaterialList([]);
+    }
+  }, [response.success])
 
   const handleAdd = (e) => {
     e.preventDefault();
