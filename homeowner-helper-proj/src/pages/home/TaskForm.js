@@ -25,7 +25,7 @@ export default function TaskForm({ uid }) {
     })
 
   }
-
+// clears form after successful submission
   useEffect(() => {
     if(response.success) {
       setTaskName('');
