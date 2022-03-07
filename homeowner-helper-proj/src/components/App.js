@@ -21,10 +21,10 @@ function App() {
             Home
           </Route>
           <Route path="/login">
-            Login
+            <Login />
           </Route>
           <Route path="/signup">
-            Signup
+            <Signup />
           </Route>
         </Switch>
       </BrowserRouter>
