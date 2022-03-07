@@ -65,12 +65,12 @@ export default function TaskForm({ uid }) {
         {/* Add Dropdown selctor for Frequency */}
         <label>
           <span>About/Notes:</span>
-          <input
+          <textarea
             type="text"
             required
             onChange={(e) => setAbout(e.target.value)} 
             value={about} 
-          />
+            ></textarea>
         </label>
         <label>
           <span>Next Due:</span>
