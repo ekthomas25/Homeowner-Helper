@@ -9,7 +9,7 @@ export const useSignup = () => {
 
   const signup = async (email, password, displayName) => {
     setError(null);
-    isPending(true)
+    setIsPending(true)
 
     try {
       //signup user
@@ -25,7 +25,7 @@ export const useSignup = () => {
       //dispatch login action
       dispatch({ type: 'LOGIN', payload: res.user })
 
-      isPending(false);
+      setIsPending(false);
       setError(null);
     }
     catch (err) {
