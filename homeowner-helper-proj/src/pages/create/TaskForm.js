@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef } from 'react';
 import { useFirestore } from '../../hooks/useFirestore';
 import { useHistory } from 'react-router-dom';
+import { timestamp } from '../../firebase/config';
 import Select from 'react-select';
 
 const areas = [
@@ -50,7 +51,7 @@ export default function TaskForm({ uid }) {
       area: area.label,
       frequency: frequency.value,
       about,
-      nextDue, 
+      nextDue: timestamp.fromDate(new Date(nextDue)), 
       materialList
     })
     if(!response.error) {
