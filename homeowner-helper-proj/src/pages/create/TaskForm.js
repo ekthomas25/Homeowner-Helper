@@ -139,7 +139,7 @@ export default function TaskForm({ uid }) {
             <p>Current Materials: {materialList.map(i => <em key={i}>{i}, </em>)}</p>
           </div>
         </label>
-        <button>Add Material</button>
+        <button className="btn">Add Task</button>
         {formError && <p>{formError}</p>}
       </form>
     </>
