@@ -9,6 +9,7 @@ import { useAuthContext } from '../hooks/useAuthContext'
 import Home from '../pages/home/Home'
 import Signup from '../pages/signup/Signup';
 import Login from '../pages/login/Login';
+import TaskForm from '../pages/create/TaskForm'
 import Navbar from './Navbar';
 
 
@@ -23,6 +24,10 @@ function App() {
             <Route exact path="/">
               {!user && <Redirect to="/login" />}
               { user && <Home />}
+            </Route>
+            <Route path="/create">
+              {!user && <Redirect to="/login" />}
+              {user && <TaskForm uid={user.uid} />}
             </Route>
             <Route path="/login">
               {!user && <Login />}
