@@ -2,6 +2,25 @@ import React, {useState, useEffect, useRef } from 'react';
 import { useFirestore } from '../../hooks/useFirestore'
 import Select from 'react-select';
 
+const areas = [
+  {value: 'exterior', label: 'Exterior' },
+  {value: 'interior', label: 'Interior' },
+  {value: 'plumbing', label: 'Plumbing' },
+  {value: 'hvac', label: 'HVAC' },
+  {value: 'roof', label: 'Roof' },
+  {value: 'walkways', label: 'Walkways' },
+  {value: 'windows', label: 'Windows' },
+  {value: 'electrical', label: 'Electrical' },
+  {value: 'doors', label: 'Doors' },
+  {value: 'appliances', label: 'Appliances'},
+]
+const frequencies = [
+  {value: '1', label: 'Yearly' },
+  {value: '2', label: 'Bi-Yearly' },
+  {value: '4', label: 'Quarterly' },
+  {value: '12', label: 'Monthly' },
+]
+
 export default function TaskForm({ uid }) {
   const [taskName, setTaskName] = useState('');
   const [area, setArea] = useState('');
@@ -64,11 +83,17 @@ export default function TaskForm({ uid }) {
         </label>
         <label>
           <span>Area of House:</span>
-          {/* Add Dropdown selctor for Area */}
+          <Select
+          onChange={(option) => setArea(option)}
+          options={areas}
+          />
         </label>
         <label>
           <span>Frequency of Task:</span>
-          {/* Add Dropdown selctor for Frequency */}
+          <Select
+          onChange={(option) => setFrequency(option)}
+          options={frequencies}
+          />        
         </label>
         <label>
           <span>About/Notes:</span>
@@ -100,7 +125,7 @@ export default function TaskForm({ uid }) {
             <p>Current Materials: {materialList.map(i => <em key={i}>{i}, </em>)}</p>
           </div>
         </label>
-        <button>Add Transaction</button>
+        <button>Add Material</button>
       </form>
     </>
   )
