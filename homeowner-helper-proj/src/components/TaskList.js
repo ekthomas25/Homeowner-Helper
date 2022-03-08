@@ -1,24 +1,25 @@
 import React from 'react';
-import { useCollection } from '../hooks/useCollection';
+// import { useCollection } from '../hooks/useCollection';
 import { Link } from 'react-router-dom';
 
 //styles
 import './TaskList.css'
 
-const TaskList = () => {
-  const { documents } = useCollection('tasks');
+const TaskList = ({ tasks }) => {
+  // const { documents } = useCollection('tasks');
+  console.log({tasks})
   return (
     <div className="task-list">
-      {!documents && <p>No Tasks</p>}
-      {documents && documents.map(doc => (
-        <Link to={`/task/${doc.id}`}className="task-item" key={doc.id}>
-          {doc.taskName}
+      {!tasks && <p>No Tasks</p>}
+      {tasks && tasks.map(task => (
+        <Link to={`/task/${task.id}`}className="task-item" key={task.id}>
+          {task.taskName}
           &nbsp;&nbsp;
-          {doc.area.label}
+          {task.area.label}
           &nbsp;&nbsp;
-          {doc.frequency.label}
+          {task.frequency.label}
           &nbsp;&nbsp;
-          {doc.nextDue}
+          {task.nextDue.toDate().toDateString()}
         </Link>
         
       ))}
