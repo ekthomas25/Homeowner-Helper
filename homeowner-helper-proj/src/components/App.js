@@ -9,9 +9,12 @@ import { useAuthContext } from '../hooks/useAuthContext'
 import Home from '../pages/home/Home'
 import Signup from '../pages/signup/Signup';
 import Login from '../pages/login/Login';
-import TaskForm from '../pages/create/TaskForm'
+import TaskForm from '../pages/create/TaskForm';
+import Task from '../pages/task/Task';
 import Navbar from './Navbar';
 
+// styles
+import './App.css'
 
 function App() {
   const { authIsReady, user } = useAuthContext()
@@ -20,6 +23,7 @@ function App() {
       {authIsReady && (
         <BrowserRouter>
           <Navbar />
+          <div className="container">
           <Switch>
             <Route exact path="/">
               {!user && <Redirect to="/login" />}
@@ -28,6 +32,10 @@ function App() {
             <Route path="/create">
               {!user && <Redirect to="/login" />}
               {user && <TaskForm uid={user.uid} />}
+            </Route>
+            <Route path="/task/:id">
+              {!user && <Redirect to="/login" />}
+              {user && <Task />}
             </Route>
             <Route path="/login">
               {!user && <Login />}
@@ -38,6 +46,7 @@ function App() {
               {user && <Redirect to="/" />}
             </Route>
           </Switch>
+          </div>
         </BrowserRouter>
       )}
     </div>
