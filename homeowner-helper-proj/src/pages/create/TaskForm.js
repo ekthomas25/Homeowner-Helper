@@ -55,7 +55,8 @@ export default function TaskForm({ uid }) {
       frequency: frequency,
       about,
       nextDue: timestamp.fromDate(new Date(nextDue)), 
-      materialList
+      materialList,
+      log: []
     })
     if(!response.error) {
       history.push('/')
