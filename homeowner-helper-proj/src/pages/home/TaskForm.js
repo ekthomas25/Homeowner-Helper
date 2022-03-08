@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef } from 'react';
 import { useFirestore } from '../../hooks/useFirestore'
+import Select from 'react-select';
 
 export default function TaskForm({ uid }) {
   const [taskName, setTaskName] = useState('');
