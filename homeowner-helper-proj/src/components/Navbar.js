@@ -13,6 +13,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <ul>
         <li className={styles.title}><Link to="/">Home Helper</Link></li>
+        <li ><Link to="/create">Create Task</Link></li>
         {!user && (
         <>
           <li><Link to="/login">Login</Link></li>
