@@ -1,17 +1,31 @@
-import React, { useContext } from 'react';
-import { TaskContext } from '../context/TaskContext';
-import LogList from './LogList';
-function TaskDetail( {task } ) {
-  const { selectTask } = useContext(TaskContext);
+import React from 'react';
+
+import LogList from '../../components/LogList';
+
+export default function TaskDetail({ task }) {
+  console.log(task)
   return (
-    
-      <li onClick={() => selectTask(task.id)}>
-      <div className="task-name">{task.taskName}</div>
-      <div className="area">{task.area}</div>
-      </li>
+    <div className="task-detail-view">
+      <div className="task-summary">
+        <span>Next Due: </span>{task.nextDue.toDate().toDateString()}
+        <br/>
+        <span>Area: </span>{task.area}
+        <br/>
+        <span>Frequency: </span>{task.frequency.label}
+      </div>
+      <div className="task-about">
+        <span>About:</span>
+        <br/>
+        {task.about}
+      </div>
+      <div className="material-list">
+        <span>Material List:</span>
+        <ul>
+          {task.materialList.map(materialList => <li key={materialList}>{materialList}</li>)}
+        </ul>
+      </div>
+    </div>
       
     
   )
 }
-
-export default TaskDetail;
