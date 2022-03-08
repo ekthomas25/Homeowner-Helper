@@ -202,5 +202,6 @@ still watching...
 
 220308 - Tuesday
 ---------------
-9:45am -
+9:45am - 11:50am
 Looking into date formatting...
+Solved .toDate().toDateString() issue! Previous nextDue entries in the database were formatted as a String, and not a timestamp. Removed/edited these documents to update them to timestamp.
