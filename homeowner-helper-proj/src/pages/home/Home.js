@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskForm from './TaskForm';
+
 import { useAuthContext } from '../../hooks/useAuthContext'
 import { useCollection } from '../../hooks/useCollection'
 
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <h1>Home</h1>
-      <TaskForm uid={user.uid} />
+      
     </>
   )
 }
