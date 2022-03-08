@@ -185,6 +185,7 @@ Watch Udemy react tutorial
 Still watching tutorial....
 
 220305 - Saturday
+---------------
 
 11:40am - 2:30pm
 Watch Udemy react tutorial
@@ -198,3 +199,8 @@ follow along w/ tutorial to build out a project management site to see how sched
 continue along with tutorial
 still watching... now about firestore collections
 still watching...
+
+220308 - Tuesday
+---------------
+9:45am -
+Looking into date formatting...
