@@ -30,17 +30,25 @@ export default function TaskForm({ uid }) {
   const [newMaterial, setNewMaterial] = useState('');
   const [materialList, setMaterialList] = useState([]);
   const materialInput = useRef(null)
+  const [formError, setFormError] = useState(null)
   const { addDocument, response } = useFirestore('tasks')
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFormError(null)
+    if (!area || !frequency) {
+      setFormError('please use the dropdown box to make a selection')
+      return 
+    }
+
+
     addDocument({
       uid,
       taskName,
       area,
       frequency,
       about,
-      nextDue,
+      nextDue, 
       materialList
     })
 
@@ -126,6 +134,7 @@ export default function TaskForm({ uid }) {
           </div>
         </label>
         <button>Add Material</button>
+        {formError && <p>{formError}</p>}
       </form>
     </>
   )
