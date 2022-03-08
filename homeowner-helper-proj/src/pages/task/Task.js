@@ -3,6 +3,9 @@ import { useDocument } from '../../hooks/useDocument';
 import { useParams } from 'react-router-dom';
 import TaskDetail from './TaskDetail';
 
+//styles
+import './Task.css';
+
 export default function Task() {
   const { id } = useParams();
   const {error, document } = useDocument('tasks', id);
