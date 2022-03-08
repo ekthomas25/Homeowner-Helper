@@ -61,8 +61,14 @@ export default function TaskForm({ uid }) {
             value={taskName} 
           />
         </label>
-        {/* Add Dropdown selctor for Area */}
-        {/* Add Dropdown selctor for Frequency */}
+        <label>
+          <span>Area of House:</span>
+          {/* Add Dropdown selctor for Area */}
+        </label>
+        <label>
+          <span>Frequency of Task:</span>
+          {/* Add Dropdown selctor for Frequency */}
+        </label>
         <label>
           <span>About/Notes:</span>
           <textarea
