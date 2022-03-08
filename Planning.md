@@ -206,5 +206,5 @@ still watching...
 Looking into date formatting...
 Solved .toDate().toDateString() issue! Previous nextDue entries in the database were formatted as a String, and not a timestamp. Removed/edited these documents to update them to timestamp.
 
-12:15pm -
+12:15pm - 12:50pm
 trouble shooting css formatting
