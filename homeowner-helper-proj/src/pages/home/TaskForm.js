@@ -99,7 +99,6 @@ export default function TaskForm({ uid }) {
           <span>About/Notes:</span>
           <textarea
             type="text"
-            required
             onChange={(e) => setAbout(e.target.value)} 
             value={about} 
             ></textarea>
@@ -110,6 +109,7 @@ export default function TaskForm({ uid }) {
             type="date"
             onChange={(e) => setNextDue(e.target.value)} 
             value={nextDue} 
+            required
           />
         </label>
         <label>
