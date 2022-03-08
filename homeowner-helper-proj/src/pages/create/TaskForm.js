@@ -4,6 +4,9 @@ import { useHistory } from 'react-router-dom';
 import { timestamp } from '../../firebase/config';
 import Select from 'react-select';
 
+//styles
+import './TaskForm.css'
+
 const areas = [
   {value: 'exterior', label: 'Exterior' },
   {value: 'interior', label: 'Interior' },
@@ -49,7 +52,7 @@ export default function TaskForm({ uid }) {
       uid,
       taskName,
       area: area.label,
-      frequency: frequency.value,
+      frequency: frequency,
       about,
       nextDue: timestamp.fromDate(new Date(nextDue)), 
       materialList
@@ -85,7 +88,7 @@ export default function TaskForm({ uid }) {
   return (
     <>
       <h3>Add a Task</h3>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="task-form">
         <label>
           <span>Task Name:</span>
           <input 
