@@ -1,0 +1,39 @@
+.task {
+  background-color: rgb(255, 163, 102);
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 4px;
+  
+  /* grid-template-columns: 30% 30% 30%; */
+}
+
+.task-details {
+  display: flex;
+}
+
+.task-details .task-summary {
+  background-color: white;
+  padding: 2em;
+  max-width: 20em;
+  border-radius: 4px;
+  flex-direction: column;
+
+}
+
+.task-details .task-about {
+  background-color: white;
+  padding: 2em;
+  max-width: 20em;
+  border-radius: 4px;
+  margin-top: 1em;
+  flex-direction: row;
+}
+
+.task-details .material-list {
+  background-color: white;
+  padding: 2em;
+  max-width: 20em;
+  border-radius: 4px;
+  margin-top: 1em;
+  flex-direction: column;
+}
