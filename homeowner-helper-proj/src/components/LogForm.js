@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { timestamp } from '../firebase/config';
 import { useFirestore } from '../hooks/useFirestore';
+import { v4 } from 'uuid'
 
 //styles
 import './LogForm.css';
@@ -21,7 +22,7 @@ export default function LogForm({ handleCancelLogForm, task }) {
       time,
       notes,
       createdAt: timestamp.fromDate(new Date()),
-      id: Math.random() //ADD UUID HERE
+      id: v4()
     }
 
     await updateDocument(task.id, {
