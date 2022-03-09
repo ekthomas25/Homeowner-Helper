@@ -12,7 +12,11 @@ const TaskList = ({ tasks }) => {
     <div className="task-list">
       {!tasks && <p>No Tasks</p>}
       {tasks && tasks.map(task => (
-        <Link to={`/task/${task.id}`}className="task-item" key={task.id}>
+        <Link 
+          to={`/task/${task.id}`}
+          key={task.id}
+          className="task-item">
+
           {task.taskName}
           &nbsp;&nbsp;
           {task.area.label}
