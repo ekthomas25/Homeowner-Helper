@@ -208,3 +208,9 @@ Solved .toDate().toDateString() issue! Previous nextDue entries in the database 
 
 12:15pm - 12:50pm
 trouble shooting css formatting
+
+220309 - Wednesday
+---------------
+8:30am -
+Assess project status
+Make todo list
