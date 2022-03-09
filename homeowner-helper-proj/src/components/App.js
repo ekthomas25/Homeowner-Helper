@@ -11,6 +11,7 @@ import Signup from '../pages/signup/Signup';
 import Login from '../pages/login/Login';
 import TaskForm from '../pages/create/TaskForm';
 import Task from '../pages/task/Task';
+import LogDetail from '../pages/task/LogDetail'
 import Navbar from './Navbar';
 
 // styles
@@ -36,6 +37,10 @@ function App() {
             <Route path="/task/:id">
               {!user && <Redirect to="/login" />}
               {user && <Task />}
+            </Route>
+            <Route path="/:id">
+              {!user && <Redirect to="/login" />}
+              {user && <LogDetail />}
             </Route>
             <Route path="/login">
               {!user && <Login />}
