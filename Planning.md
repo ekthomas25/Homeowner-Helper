@@ -211,6 +211,9 @@ trouble shooting css formatting
 
 220309 - Wednesday
 ---------------
-8:30am -
+8:30am - 9:00am
 Assess project status
 Make todo list
+
+12:00pm -
+Problem solving... trying to get LogDetails to show...
