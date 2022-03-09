@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { timestamp } from '../firebase/config';
+import { useFirestore } from '../hooks/useFirestore';
 
 //styles
 import './LogForm.css';
 
-export default function LogForm({ handleCancelLogForm }) {
+export default function LogForm({ handleCancelLogForm, task }) {
+  const { updateDocument, response } = useFirestore('tasks');
   const [completionDate, setCompletionDate] = useState('');
   const [cost, setCost] = useState('');
   const [time, setTime] = useState('');
@@ -22,8 +24,16 @@ export default function LogForm({ handleCancelLogForm }) {
       id: Math.random() //ADD UUID HERE
     }
 
-    console.log(logToAdd)
+    await updateDocument(task.id, {
+      logs: [...task.logs, logToAdd]
+    })
+
+    if(!response.error) {
+      handleCancelLogForm()
+    }
   }
+  
+  
   return (
     <div className="modal-bg">
       <div className="modal-log-form">
