@@ -8,9 +8,6 @@ import { useCollection } from '../../hooks/useCollection'
 export default function PastDue() {
   const { documents, error } = useCollection('tasks', ["nextDue", "<", timestamp.fromDate(new Date())])
   
-  console.log({documents})
-  console.log(Date.now()/1000)
-  console.log(timestamp.fromDate(new Date()).seconds)
   const now = Date.now()/1000
   
   return (
@@ -23,7 +20,7 @@ export default function PastDue() {
           <li
             key={doc.id}
             className="overdue-item">
-            {doc.taskName}: &nbsp; {(Math.floor((doc.nextDue.seconds - now)/86400))} days overdue
+            {doc.taskName}: &nbsp; {(Math.floor((now -doc.nextDue.seconds)/86400))} days overdue
           </li>
         ))}
       </ul>
