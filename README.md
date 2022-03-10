@@ -15,6 +15,8 @@ To see the author's research and planning process, check out Planning.md
 * _React.js_
 * _JavaScript_
 * _Node_
+* _HTML_
+* _CSS_
 * _npx create-react-app_
 * _Git_
 * _eslint_
