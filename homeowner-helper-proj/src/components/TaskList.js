@@ -10,23 +10,46 @@ const TaskList = ({ tasks }) => {
   console.log({tasks})
   return (
     <div className="task-list">
-      {!tasks && <p>No Tasks</p>}
-      {tasks && tasks.map(task => (
-        <Link 
-          to={`/task/${task.id}`}
-          key={task.id}
-          className="task-item">
-
-          {task.taskName}
-          &nbsp;&nbsp;
-          {task.area.label}
-          &nbsp;&nbsp;
-          {task.frequency.label}
-          &nbsp;&nbsp;
-          {task.nextDue.toDate().toDateString()}
-        </Link>
-        
-      ))}
+      <div className="list-header">
+        <div className="list-name">
+          Name:
+        </div>
+        <div className="list-area">
+          Area:
+        </div>
+        <div className="list-frequency">
+          Frequency:
+        </div>
+        <div className="list-due">
+          Next Due:
+        </div>
+      </div>
+      
+      <ul>
+        {!tasks && <p>No Tasks</p>}
+        {tasks && tasks.map(task => (
+          <Link 
+            to={`/task/${task.id}`}
+            key={task.id}
+            className="task-item">
+            <li>
+            <div className="task-cat">
+              {task.taskName}  
+            </div>
+            <div className="task-cat">
+              {task.area}
+            </div>
+            <div className="task-cat">
+              {task.frequency.label}
+            </div>
+            <div className="task-cat">
+              {task.nextDue.toDate().toDateString()}
+            </div>
+            </li>
+            
+          </Link>
+        ))}
+      </ul>
     </div>
   );
 }
