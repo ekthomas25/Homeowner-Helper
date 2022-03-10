@@ -1,0 +1,13 @@
+.past-due {
+  background-color: white;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 4px;
+}
+
+
+.overdue-item {
+  padding: .2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  color: rgb(255, 81, 0);
+}
