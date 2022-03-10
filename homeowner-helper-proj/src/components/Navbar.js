@@ -4,15 +4,15 @@ import { useLogout } from '../hooks/useLogout';
 import { useAuthContext } from '../hooks/useAuthContext';
 
 //styles
-import styles from './Navbar.module.css'
+import './Navbar.css'
 
 const Navbar = () => {
   const { logout } = useLogout();
   const { user } = useAuthContext();
   return (
-    <nav className={styles.navbar}>
+    <nav className="navbar">
       <ul>
-        <li className={styles.title}><Link to="/">Home Helper</Link></li>
+        <li className="title"><Link to="/">Home Helper</Link></li>
         
         {!user && (
         <>
