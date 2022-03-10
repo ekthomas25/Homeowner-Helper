@@ -67,7 +67,8 @@ REACT_APP_FIREBASE_APP_ID = [YOUR INFO]
 * _To view the project enter the following command in your terminal: `npm run start`_
 * _Create a user account, log in, and have fun!_
 
-<img src='' alt="A component diagram of this app" />
+<img src='/homeowner-helper-proj/src/assets/images/component-diagram-details.png' alt="A component diagram of this app" />
+<img src='/homeowner-helper-proj/src/assets/images/component-diagram-list.png' alt="A component diagram of this app" />
 
 ## Known Bugs
 
