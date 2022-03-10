@@ -18,17 +18,12 @@ export default function PastDue() {
       <h2>Overdue Tasks:</h2>
       {error && <p>{error}</p>}
       <ul>
-        {documents < 1 && (<li>You're caught up!</li>)}
+        {documents < 1 && (<p>You're caught up!</p>)}
         {documents && documents.map(doc => (
           <li
             key={doc.id}
-            className="task-item">
-            <li>
-            <div className="task-cat-1">
-              {(Math.floor((doc.nextDue.seconds - now)/86400))} days remaining until you need to {doc.taskName}
-            </div>
-            </li>
-            
+            className="overdue-item">
+            {doc.taskName}: &nbsp; {(Math.floor((doc.nextDue.seconds - now)/86400))} days overdue
           </li>
         ))}
       </ul>
