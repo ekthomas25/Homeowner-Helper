@@ -11,7 +11,8 @@ import Signup from '../pages/signup/Signup';
 import Login from '../pages/login/Login';
 import TaskForm from '../pages/create/TaskForm';
 import Task from '../pages/task/Task';
-import LogDetail from '../pages/task/LogDetail'
+import LogDetail from '../pages/task/LogDetail';
+import Dashboard from '../pages/dashboard/Dashboard';
 import Navbar from './Navbar';
 
 // styles
@@ -33,6 +34,10 @@ function App() {
             <Route path="/create">
               {!user && <Redirect to="/login" />}
               {user && <TaskForm uid={user.uid} />}
+            </Route>
+            <Route path="/dashboard">
+              {!user && <Redirect to="/login" />}
+              {user && <Dashboard />}
             </Route>
             <Route path="/task/:id">
               {!user && <Redirect to="/login" />}
