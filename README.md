@@ -50,7 +50,7 @@ The project is currently incomplete, but there are plans to complete it in the n
 ### File Setup
 
 * _Once you have VSCode and GIT, and Firebase set up, you will need to open up your terminal, navigate to your Desktop and type the command:_
-`git clone https://github.com/ekthomas25/homeowner-helper.git`
+`git clone https://github.com/ekthomas25/Homeowner-Helper.git`
 
 * _This will clone the repository to your desktop and you will be able to then open the folder in VSCode._
 * _Open the terminal in VSCode and navigate to_ `homeowner-helper/homeowner-helper-proj` _and type the following command:_ `npm install`
