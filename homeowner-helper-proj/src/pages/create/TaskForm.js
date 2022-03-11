@@ -87,8 +87,8 @@ export default function TaskForm({ uid }) {
   }
 
   return (
-    <>
-      <h3>Add a Task</h3>
+    <div className="home">
+      <h1>Add a Task</h1>
       <form onSubmit={handleSubmit} className="task-form">
         <label>
           <span>Task Name:</span>
@@ -139,6 +139,7 @@ export default function TaskForm({ uid }) {
             value={newMaterial}
             ref={materialInput}
             />
+            <br/>
             <button onClick={handleAdd} className="btn">Add Material</button>
             <p>Current Materials: {materialList.map(i => <em key={i}>{i}, </em>)}</p>
           </div>
@@ -146,6 +147,6 @@ export default function TaskForm({ uid }) {
         <button className="btn">Add Task</button>
         {formError && <p>{formError}</p>}
       </form>
-    </>
+    </div>
   )
 }

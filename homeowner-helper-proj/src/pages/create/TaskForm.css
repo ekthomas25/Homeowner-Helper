@@ -1,3 +1,23 @@
-.task-form {
+/* .task-form {
   max-width: 25em;
+} */
+
+.task-form {
+  max-width: 360px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.task-form label {
+  display: block;
+  margin: 30px auto;
+}
+.task-form span {
+  display: block;
+  margin-bottom: 6px;
+}
+.task-form input {
+  padding: 8px 6px;
+  font-size: 1em;
+  color: #777;
+  width: 100%;
 }
