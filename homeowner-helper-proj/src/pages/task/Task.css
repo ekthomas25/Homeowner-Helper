@@ -1,41 +1,73 @@
-.task {
+/* .task {
   background-color: rgb(255, 163, 102);
   margin-top: 2em;
   padding: 1em;
   border-radius: 4px;
   
-  /* grid-template-columns: 30% 30% 30%; */
-}
+  grid-template-columns: 30% 30% 30%;
+} */
 
-.task-details {
+.task-detail {
+  display: grid;
+  grid-template-areas: 
+  "about material log"
+  ;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 70px;
+
+}
+.first {
+  grid-area: about;
   display: flex;
 }
 
-.task-details .task-summary {
+.last {
+  grid-area: log;
+}
+.task-detail .btn {
+  grid-area: log;
+  width: 100%;
+}
+
+.task-summary {
   background-color: white;
   padding: 2em;
-  max-width: 20em;
-  max-height: 50%;
+  
+  
+  
   border-radius: 4px;
   margin-top: 1em;
-  flex-direction: column;
+  flex: 1;
+  
+}
+
+/* .task-sum {
+  grid-area: "about";
+} */
+.task-about {
+  background-color: white;
+  padding: 2em;
+ 
+  border-radius: 4px;
+  margin-top: 1em;
+  flex: 1
+}
+
+.material-list {
+  background-color: white;
+  padding: 2em;
+ 
+  border-radius: 4px;
+  margin-top: 1em;
+  height: 100%;
+  grid-area: material;
 
 }
 
-.task-details .task-about {
-  background-color: white;
-  padding: 2em;
-  max-width: 20em;
-  border-radius: 4px;
-  margin-top: 1em;
-  flex-direction: row;
+.log-listcolumn {
+  grid-area: log;
 }
 
-.task-details .material-list {
-  background-color: white;
-  padding: 2em;
-  max-width: 20em;
-  border-radius: 4px;
-  margin-top: 1em;
-  flex-direction: column;
-}
+/* .first-column {
+  width: 30%;
+} */

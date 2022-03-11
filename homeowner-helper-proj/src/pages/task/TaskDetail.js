@@ -17,29 +17,37 @@ export default function TaskDetail({ task }) {
 
   return (
     <>
-    <div className="task-detail-view">
-      <div className="task-summary">
-        <span>Next Due: </span>{task.nextDue.toDate().toDateString()}
-        <br/>
-        <span>Area: </span>{task.area}
-        <br/>
-        <span>Frequency: </span>{task.frequency.label}
+    <div className="task-detail">
+      <div className="first">
+        <div className="task-summary">
+        <h2>Next Due:</h2>{task.nextDue.toDate().toDateString()}
+          <br/>
+          <h2>Area:</h2>{task.area}
+          <br/>
+          <h2>Frequency:</h2>{task.frequency.label}
+        </div>
       </div>
+
       <div className="task-about">
-        <span>About:</span>
+      <h2>About:</h2>
         <br/>
         {task.about}
       </div>
+      
+
       <div className="material-list">
-        <span>Material List:</span>
+        <h2>Material List:</h2>
         <ul>
           {task.materialList.map(materialList => <li key={materialList}>{materialList}</li>)}
         </ul>
       </div>
-      <button className="btn" onClick={handleShowLogForm}>Complete Task</button>
-    </div>
+
+      <div className="last">
+        <button className="btn" onClick={handleShowLogForm}>Complete Task</button>
+        <LogList className="log-listcolumn"task={task} />
+      </div>
       {showLogForm && <LogForm task={task} handleCancelLogForm={handleCancelLogForm}/>}
-      
-      </>
+      </div>
+    </>
   )
 }
