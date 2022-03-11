@@ -14,6 +14,14 @@
   background-color: rgb(255, 255, 255, 0.76);
   display: flex;
 }
+.task-list li:hover {
+  list-style: none;
+  padding: .75em 1.5em;
+  /* border-bottom: .5px solid rgba(0, 0, 0, 0.322); */
+  margin-bottom: .5em;
+  background-color: rgba(255, 251, 219, 0.76);
+  display: flex;
+}
 
 .list-name {
   flex: 1 2 100px;
@@ -36,5 +44,10 @@
 }
 
 .task-cat-1 {
-  padding: 1em;
+  flex: 1 2 100px;
+  flex-direction: row;
+}
+
+a {
+  color: #707551;
 }

@@ -33,16 +33,16 @@ const TaskList = ({ tasks }) => {
             key={task.id}
             className="task-item">
             <li>
-            <div className="task-cat">
+            <div className="task-cat-1">
               {task.taskName}  
             </div>
-            <div className="task-cat">
+            <div className="task-cat-1">
               {task.area}
             </div>
-            <div className="task-cat">
+            <div className="task-cat-1">
               {task.frequency.label}
             </div>
-            <div className="task-cat">
+            <div className="task-cat-1">
               {task.nextDue.toDate().toDateString()}
             </div>
             </li>
