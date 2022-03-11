@@ -3,6 +3,7 @@
   padding: 0.75em;
   background-color: rgb(255, 163, 102);
   border-radius: 4px;
+  max-height: max-content;
 }
 
 .box {
