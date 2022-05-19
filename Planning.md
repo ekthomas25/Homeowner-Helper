@@ -217,3 +217,31 @@ Make todo list
 
 12:00pm -
 Problem solving... trying to get LogDetails to show...
+
+220517 - Wednesday
+---------------
+10:00pm - 10:40pm
+Refamiliarize self with project.
+
+**Notes:**
+General:
+- Should start making notes w/in each component to detail what it does for easy reference.
+
+Appearance:
+- Material list should have better formatting
+- Might need more contrast.
+- Not sure about green buttons
+- Add transition to buttons.
+- Create responsive designs.
+- Edit Task List CSS so that Headers line up w/ columns.
+
+Functionality:
+- Log.js is incomplete - cannot view log details.
+- Need a link w/in navbar to view Task List.js
+    - Clicking Home Helper should take you to Dashboard, need separate link for Task List.
+- Should be able to click on overdue/upcoming tasks to view them
+- Cost.js component is incomplete. Should show top 10? costs and should be listed from most expensive to least.
+
+Ideas:
+- Have a rolodex of sorts for people/services purchased and include them w/in the Log.
+- Option to input whether something was done by yourself or if you hired someone.
